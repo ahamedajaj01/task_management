@@ -50,14 +50,14 @@ sample request:
 ```
 GET /api/list/tasks/?status=Pending&priority=High
 ```
-3. GET /api/get/task/<id>/ — Retrieve single task
+3. GET /api/get/task/id/ — Retrieve single task
 This endpoint retrieves the details of a single task by its ID.
 sample request:
 ```
 GET /api/get/task/1/
 ```
 
-4. PUT /api/update/task/<id>/ — Full update task
+4. PUT /api/update/task/id/ — Full update task
 This endpoint allows you to fully update an existing task by its ID. You need to provide the updated task details in the request body.
 sample request body:
 ```json
@@ -68,7 +68,7 @@ sample request body:
 }
 ```
 
-5. PATCH /api/update/task/<id>/ — Partial update task
+5. PATCH /api/update/task/id/ — Partial update task
 This endpoint allows you to partially update an existing task by its ID. You need to provide the updated task details in the request body.
 sample request body:
 ```json
@@ -77,7 +77,7 @@ sample request body:
 }
 ```
 
-6. DELETE /api/delete/task/<id>/ — Delete task
+6. DELETE /api/delete/task/id/ — Delete task
 This endpoint allows you to delete a task by its ID.
 sample request:
 ```
